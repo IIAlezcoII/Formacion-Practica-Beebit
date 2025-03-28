@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+:root{
+    --moscuro: #4C5FD5;
+    --moclaro: #dadbf1;
+    --negro: #000000;
+    --blanco: #fff;
+}
+img{
+    max-width: 100%;
+}
+/* HEADER */
+header{
+    background-color: var(--negro);
+}
+nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 0 1% 0;
+}
+.logo{
+    width: 50%;
+}
+.logohelp{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logohelp a{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.formulario{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+}
+form{
+    width: 50%;
+}
+#buscar{
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+    outline: none;
+    font-size: larger;
+}
+#submit{
+    padding: 2%;
+    border-radius: 7px;
+    border: 2px solid #dee2e6;
+    outline: none;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: larger;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#signin{
+    padding: 2%;
+    border-radius: 7px;
+    border: 2px solid var(--moscuro);
+    background-color: var(--moscuro);
+    outline: none;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: larger;
+    padding: 2% 3% 2% 3%;
+}
+/* FIN HEADER */
+
+/* SECTION 1 */
+
+section#ayuda{
+    background-color: var(--moclaro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 5rem;
+    padding: 5% 0 1.5% 0;
+
+}
+#buscar2{
+    margin-bottom: 7%;
+    padding: 1%;
+    width: 40%;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: larger;
+}
+
+/* FIN SECTION 1 */
+
+/* SECTION 2 */
+
+.container{
+    width: 85%;
+    margin: auto;
+    padding: 8% 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container2{
+    width: 45%;
+    display: flex;
+    padding-bottom: 8%;
+}
+.lilimg{
+    width: 20%;
+}
+.lilimg img{
+    width: 80%;
+}
+.texto{
+    width: 80%;
+}
+.texto h3{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.texto p{
+    margin: 4% 0 4% 0;
+    font-size: 1.3rem;
+    font-weight: 250;
+}
+.texto a{
+    text-decoration: none;
+}

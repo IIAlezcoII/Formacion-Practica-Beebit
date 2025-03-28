@@ -27,7 +27,7 @@
             </nav>
         </header>
         <section id="ayuda">
-            <h1>How can we help?</h1>
+            <h1 id="w3c">How can we help?</h1>
             <input type="search" id="buscar2" placeholder="Search">
             <button onclick="crearVentana()">Crear ventana</button>
         </section>
@@ -138,10 +138,34 @@
         </footer>
     </main>
     <script>
+        
         var miVentana;
         function crearVentana(){
             miVentana = window.open("https://youtu.be/dQw4w9WgXcQ?si=OsN8A8mn596UcjRM")
         }
+
+        alert("Hola visitante");
+        var res = prompt("¿Cuál es tu nombre?");
+        alert("Hola "+res);
+        var res2 = confirm("¿Te gusta JavaScript?")
+        alert((res2) ? "Me alegro" : "Una pena");
+        
+        /* Modelos de evento W3C (DOM)*/
+
+        document.getElementById("w3c").addEventListener("click", saludar, false);
+
+        function saludar(){
+            alert("Hola caracola");
+        }
+
+        /* document.getElementById(id).addEventListener(evento, función, false) */
+
+        document.getElementsByClassName("ultimg").addEventListener("click", function() {
+            alert("eeeee");
+        });
+
+        
+
     </script>
 </body>
 </html>

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abstract</title>
     <link rel="stylesheet" href="abstract.css">
+    <link rel="icon" type="image/x-icon" href="./img/logo2.png">
 </head>
 <body>
     <main>
@@ -28,6 +29,7 @@
         <section id="ayuda">
             <h1>How can we help?</h1>
             <input type="search" id="buscar2" placeholder="Search">
+            <button onclick="crearVentana()">Crear ventana</button>
         </section>
         <section id="opciones">
             <div class="container">
@@ -93,6 +95,53 @@
                 </div>
             </div>
         </section>
+        <footer>
+            <div class="container3">
+                <div class="terminos">
+                    <h3>Abstract</h3>
+                    <a href="#">Start Trial</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Download</a>
+                </div>
+                <div class="terminos">
+                    <h3>Resources</h3>
+                    <a href="#">Blog</a>
+                    <a href="#">Help Center</a>
+                    <a href="#">Release Notes</a>
+                    <a href="#">Status</a>
+                </div>
+                <div class="terminos">
+                    <h3>Community</h3>
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Dribbble</a>
+                    <a href="#">Podcast</a>
+                </div>
+                <div class="terminos">
+                    <h3>Company</h3>
+                    <a href="#">About Us</a>
+                    <a href="#">Carreers</a>
+                    <a href="#" id="espacio">Legal</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">info@abstract.com</a>
+                </div>
+                <div class="ultimacolumna">
+                    <div class="ultimg">
+                        <img src="./img/logo2.png" alt="">
+                    </div>
+                    <p>© Copyright 2025</p>
+                    <p>Abstract Studio Design, Inc.</p>
+                    <p>All rights reserved</p>
+                </div>
+            </div>
+        </footer>
     </main>
+    <script>
+        var miVentana;
+        function crearVentana(){
+            miVentana = window.open("https://youtu.be/dQw4w9WgXcQ?si=OsN8A8mn596UcjRM")
+        }
+    </script>
 </body>
 </html>

@@ -142,3 +142,48 @@ h1{
 .texto a{
     text-decoration: none;
 }
+
+/* FIN SECTION 2 */
+
+/* FOOTER */
+
+footer{
+    background-color: var(--negro);
+}
+.container3{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    color: var(--blanco);
+}
+.terminos a{
+    text-decoration: none;
+    color: var(--blanco);
+    display: block;
+    font-size: 1rem;
+}
+.terminos{
+    vertical-align: top;
+    width: 20%;
+    line-height: 150%;
+}
+.terminos h3{
+    padding: 15% 0 5% 0;
+    font-weight: 450;
+    font-size: 1.5rem;
+}
+#espacio{
+    padding-bottom: 8%;
+}
+.ultimacolumna{
+    padding: 12% 0 5% 0;
+    font-size: 1.2rem;
+    line-height: 150%;
+}
+.ultimg{
+    width: 10%;
+    padding-bottom: 2%;
+}
+
+/* FIN FOOTER */

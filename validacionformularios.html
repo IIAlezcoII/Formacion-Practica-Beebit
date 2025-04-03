@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación formularios</title>
+    <link rel="stylesheet" href="valform.css">
+    <script src="validacion.js"></script>
+</head>
+<body>
+    <form action="#" id="miFormulario">
+        <h1>Formulario</h1>
+        <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" maxlength="15" title="Introduce entre 2 y 15 caracteres" required>
+        <label for="telefono">Telefono:</label>
+            <input type="text" name="telefono" id="telefono">
+        <label for="fecha">Fecha de nacimiento: </label>
+            <input type="text" name="fecha" id="dia">
+            <input type="text" name="fecha" id="mes">
+            <input type="text" name="fecha" id="ano">
+        <label for="sexo">Sexo: </label>
+            <input type="radio">Hombre
+            <input type="radio">Mujer
+        <label for="mayor">Mayor de edad</label>
+            <input type="checkbox" name="mayor" id="mayor">
+            <input type="submit" name="" id="enviar" class="bton">
+            <input type="reset" class="bton" id="borrar">
+    </form>
+</body>
+</html>

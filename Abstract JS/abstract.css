@@ -188,3 +188,60 @@ footer{
 }
 
 /* FIN FOOTER */
+
+@media screen and (max-width: 1400px){
+    form{
+        width: 66%;
+    }
+    .logohelp a{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1300px){
+    form{
+        width: 76%;
+    }
+    .logo{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 1200px){
+    form{
+        width: 76%;
+    }
+}
+@media screen and (max-width: 1100px){
+    form{
+        width: 86%;
+    }
+    .logo img{
+        width: 150%;
+    }
+}
+@media screen and (max-width: 1000px){
+    form{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 800px){
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logohelp{
+        width: 100%;
+        margin-bottom: 2%;
+        display: flex;
+        justify-content: center;
+    }
+    .formulario{
+        width: 100%;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+    }
+    .logo img{
+        width: 55%;
+    }
+}

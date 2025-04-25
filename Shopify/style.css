@@ -1,5 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
 }
+:root{
+
+}
+img{
+    max-width: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    margin: auto;
+}
+.logo{
+    width: 5%;
+    margin-right: 5%;
+}
+nav{
+    width: 40%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    width: 7%;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.search{
+    width: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+#busc{
+    width: 40%;
+    padding: 1%;
+    border-radius: 5px;
+    border: solid rgb(182, 180, 180) 1px;
+}
+.login{
+    width: 60%;
+}
+section#front{
+    display: flex;
+    width: 100vw;
+}
+.mainimg{
+    width: 30%;
+}
+.primerdiv{
+    width: 50%;
+    margin-left: 5%;
+}
+

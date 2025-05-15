@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans";
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: red;
+    height: 10vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+.logohead{
+    width: 25%;
+}
+ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.boton{
+    padding: 10px;
+    border: 1px solid whitesmoke;
+}
+section#inicio{
+    height: 90vh;
+    background-image: url(./img/consola_mario.PNG);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    font-size: 45px;
+    color: whitesmoke;
+}
+section#presentacion{
+    background-color: rgb(158, 250, 238);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.presentacioncontainer{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.boton2{
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    display: inline-block;
+}
+.presentacioncontainer a{
+    color: black;
+    text-decoration: none;
+}
+section#joycon{
+    height: 75vh;
+    background-color: red;
+    display: flex;
+}
+.nuevosjoycon img{
+    width: 15px;
+}
+.nuevosjoycon h2{
+    display: inline;
+    font-size: 40px;
+    align-items: center;
+}
+.joyimg{
+    width: 40vw;
+}
+.nuevosjoycon{
+    width: 50%;
+    height: 30vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    color: whitesmoke;
+    line-height: 25px;
+    font-size: 17px;
+}
+.nuevosjoycon p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.manditos{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.manditos img{
+    width: 20px;
+}
+.nuevosjoycon a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+section#novedad{
+    height: 50vh;
+    background-color: red;
+}
+.novedades{
+    width: 85%;
+    margin: auto;
+}
+.novedadesh2{
+    color: whitesmoke;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.caratulas{
+    display: flex;
+    justify-content: space-around;
+}
+section#ultimaseccion{
+    height: 10vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pepe{
+    text-align: center;
+}
